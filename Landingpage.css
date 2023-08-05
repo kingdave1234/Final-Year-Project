@@ -29,6 +29,29 @@ html{
     justify-content: space-between;
     padding: .2rem 9%;    
 }
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left > div + div{
+    margin-left: 40px;
+}
+.left i{
+    color: var(--kelly-green);
+}
+.left span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navbar-2{
+    position: sticky !important;
+    top: 0 !important;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.1);
+}
 .logo-1{
     color: var(--eerie-black);
     font-weight: 700;
@@ -89,5 +112,4 @@ html{
 }
 .home{
     height: 100vh;
-    background: url(/media/images/photo_2023-07-20_16-43-12.jpg
 }
